@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="Oxygen Plugin">
+    <output-path>/Applications/oxygen/plugins/addContextMenu</output-path>
+    <root id="root">
+      <element id="artifact" artifact-name="Artifacts Output" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/textmode.plugin.xml" output-file-name="plugin.xml" />
+    </root>
+  </artifact>
+</component>

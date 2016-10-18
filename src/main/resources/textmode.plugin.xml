@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plugin SYSTEM "../plugin.dtd">
+<plugin name="AddContextMenu"
+        description="Adds 'Plugins > AddContextMenu' to the textmode context (right-click) menu in OxygenXML."
+        version="0.1.0"
+        vendor="davidpriest.ca"
+        class="ca.davidpriest.oxygen.AddContextMenuPlugin"
+        id="addcontextmenu">
+    <runtime>
+        <library name="addContextMenu.jar"/>
+    </runtime>
+    <extension type="documentProcessor"
+               class="ca.davidpriest.addcontextmenu.ContextMenu"/>
+</plugin>
